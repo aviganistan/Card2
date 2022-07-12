@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>ABDULAHAD_1174</title>
+</head>
+<style>
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .randombtn {
+        font-size: 25px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-md-6 mx-auto ">
+                <div class="card bg-dark shadow text-center p-5 text-light">
+                    <img src="person-1.jpg" alt="person-1" class="mx-auto" id="person-img">
+                    <h3 id="name">Solijanov Sirojiddin</h3>
+                    <h3 id="job" class="text-warning">Student</h3>
+                    <p class="card-text" id="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+                        cumque nisi similique placeat cum iste debitis odio laboriosam quaerat. Deserunt minima fuga eum
+                        doloremque rem ab quam fugiat quidem vitae.</p>
+                    <div class="d-flex justify-content-center">
+                        <p style="cursor:pointer;" id="prevBtn">
+                            <i class="fa-solid fa-backward icon me-4"></i>
+                        </p>
+                        <p style="cursor:pointer;" id="nextBtn">
+                            <i class="fa-solid fa-forward icon"></i>
+                        </p>
+                    </div>
+
+                    <button class="btn btn-primary w-50 mx-auto" id="randomBtn">Random<i
+                            class="fa-solid fa-shuffle randombtn"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
